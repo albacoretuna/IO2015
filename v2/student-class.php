@@ -9,7 +9,7 @@
 			$this->name = $name; 
 			$this->id = $id; 
 			} else {
-				echo "id must be 7 numbers<br>";
+				echo "Id must be 7 numbers<br>";
 				return 0;
 			}
 
