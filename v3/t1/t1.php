@@ -14,8 +14,6 @@ require_once('../../yhteiset/dbYhteys.php');
 <?php
 // TODO: tee sql lause joka hakee kaiken 'ip_pages' taulusta
 $selQuery = "SELECT * FROM ip_pages";
-
-
 $STH = $DBH->query($selQuery);
 
 $STH->setFetchMode(PDO::FETCH_ASSOC);

@@ -36,7 +36,7 @@ $timestamp = strtotime($row["date"]);
 <div>
    <img src="<?php print_r($row['url']);?>">
   <p><?php print_r($row['content']);?></p>
-  <p><?php print_r( date("d-m-Y ", $timestamp)); ?></p>
+  <p><?php print_r( date("d.m.Y ", $timestamp)); ?></p>
 
 </div>
 <?php  
