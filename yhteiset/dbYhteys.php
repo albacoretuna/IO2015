@@ -1,8 +1,8 @@
 <?php
 $host = 'mysql.metropolia.fi';
-$dbname = ''; // tunnus
-$user = ''; // tunnus
-$pass = ''; // tietokannan salasana
+$dbname = 'seyedhe'; // tunnus
+$user = 'seyedhe'; // tunnus
+$pass = 'abcd202040'; // tietokannan salasana
 
 try {
 	$DBH = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
